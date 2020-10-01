@@ -1,0 +1,296 @@
+body,
+h1,
+h2,
+p,
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #252525;
+}
+
+img {
+  max-width: 500px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+/* Menu */
+
+.menu {
+  background: #fff5ee;
+  padding: 20px 0;
+}
+
+.menu-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.menu-container:after,
+.menu-container:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.menu-logo {
+  display: block;
+  float: left;
+  margin-left: 10px;
+}
+
+.menu-logo {
+  color: #fa8072;
+  font-size: 2.2em;
+}
+
+.menu-nav {
+  float: right;
+  margin-right: 10px;
+}
+
+.menu-nav a:hover {
+  background: #fa8072;
+  border-radius: 20px;
+  transition: 0.1s ease-in-out;
+}
+
+.menu-nav li {
+  display: inline-block;
+}
+
+.menu-nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #252525;
+  font-size: 1.125em;
+}
+
+.orçamento {
+  padding: 150px 0;
+  color: #fff;
+  margin-left: 300px;
+}
+
+.orçamento-container {
+  display: block;
+  float: right;
+  margin-right: 280px;
+  padding-top: 70px;
+}
+
+.orçamento p,
+h2 {
+  color: #252525;
+}
+
+.orçamento h2 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 2.7em;
+}
+
+.orçamento p {
+  font-size: 2em;
+}
+
+.orçamento button {
+  font-size: 1.125em;
+  background: #ff6347;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  width: 300px;
+  padding: 13px 0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.orçamento button {
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.beneficios {
+  background: #fff5ee;
+  padding: 30px 0;
+}
+
+.ben-container:after,
+.ben-container:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ben-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.ben-container img {
+  display: block;
+  float: right;
+  margin: 0 10px;
+}
+
+.icone {
+  color: red;
+}
+
+.ben-info {
+  list-style-type: none;
+  max-width: 300px;
+  margin-top: 100px;
+}
+
+.ben-info li,
+i {
+  margin: 10px;
+}
+
+.beneficios p {
+  text-align: left;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.beneficios p {
+  font-weight: bold;
+  font-size: 1.125em;
+}
+
+.cel-input {
+  width: 200px;
+  border: 3px solid #ff6347;
+  border-radius: 5px;
+  background: none;
+  font-size: 1.125em;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.beneficios button {
+  font-size: 1.125em;
+  background: #ff6347;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  width: 250px;
+  padding: 13px 0;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 5px;
+  border: none;
+}
+
+.quem-somos {
+  padding: 60px 0;
+}
+
+.qm-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.qm-container:before,
+.qm-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.qm-container li {
+  display: inline-block;
+  max-width: 410px;
+  max-height: 400px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+.quem-somos h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2em;
+}
+
+.item {
+  background: #fff5ee;
+  padding: 10px 50px 10px 70px;
+  border-radius: 5px;
+}
+
+.item:before {
+  content: "";
+  display: block;
+  width: 30px;
+  background: #e80f14;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid #e80f14;
+  box-shadow: 0 0 0 10px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 65px;
+  margin-left: -40px;
+}
+
+.item p {
+  margin: 10px auto;
+  margin-left: 20px;
+}
+
+.bold-p {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background: #252525;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #e80f14;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer-contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer-redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-redes ul li a {
+  display: block;
+}
+
+.footer i {
+  color: red;
+}
