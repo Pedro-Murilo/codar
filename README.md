@@ -12,7 +12,7 @@ Aqui está o link do desafio!
 [Codar](https://www.devchallenge.com.br/detail/5ed47992adee277fae224a0b)
 
 ### Redes Sociais
-<a href="https://www.linkedin.com/in/pedro-murilo-3ba7941b6/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/pedro-murilo-3ba7941b6/"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn" target="_blank"></a>
 
 ### Feedback
 Qualquer feedback é muito bem vindo! ❤
